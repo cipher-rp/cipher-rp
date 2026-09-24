@@ -42,7 +42,15 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-## ⚔️ `SOC_INVESTIGATION_PIPELINE`
+<!-- SOC INVESTIGATION PIPELINE -->
+<p align="center">
+  <img src="./assets/soc-investigation-heading.gif" width="100%" alt="SOC Investigation Pipeline"/>
+</p>
+
+<p align="center">
+  <img src="./assets/soc-investigation-pipeline.gif" width="100%" alt="SOC investigation workflow from telemetry to triage, correlation, MITRE ATT&CK and response"/>
+</p>
+
 
 ```text
                     SECURITY TELEMETRY
