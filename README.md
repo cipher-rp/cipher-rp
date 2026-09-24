@@ -2,14 +2,14 @@
 
 <p><img src="./assets/cyber-banner.svg" width="100%" alt="Pradeep Kumar - Cybersecurity SOC Analyst"/></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:00e5ff,100:7c3aed&height=145&section=header&text=WELCOME%20TO%20MY%20CYBER%20COMMAND%20CENTER&fontSize=30&fontColor=ffffff&fontAlignY=48&animation=twinkling" width="100%" alt="Welcome to Pradeep Kumar cyber command center"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:00e5ff,100:7c3aed&height=145&section=header&text=PRADEEP%20KUMAR%20%2F%2F%20BLUE%20TEAM%20OPERATIONS&fontSize=29&fontColor=ffffff&fontAlignY=48&animation=twinkling&desc=CYBER%20DEFENSE%20%7C%20THREAT%20DETECTION%20%7C%20SOC&descAlignY=72&descSize=15" width="100%" alt="Pradeep Kumar Blue Team Operations"/>
 
-<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1400&color=00E5FF&center=true&vCenter=true&width=850&height=105&multiline=true&lines=Welcome+to+my+Cyber+Command+Center;SOC+Analyst+L1+%E2%80%A2+Threat+Detection+%E2%80%A2+Incident+Response;Threat+Hunting+%E2%80%A2+SIEM+Investigation+%E2%80%A2+Blue+Team;Wazuh+%E2%80%A2+Splunk+%E2%80%A2+Snort+%E2%80%A2+MITRE+ATT%26CK" alt="Typing animation"/></a>
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1800&color=00E5FF&center=true&vCenter=true&width=950&height=55&lines=Welcome+to+my+Cyber+Command+Center;SOC+Analyst+L1+%E2%80%A2+Threat+Detection+%E2%80%A2+Incident+Response;Threat+Hunting+%E2%80%A2+SIEM+Investigation+%E2%80%A2+Blue+Team;Wazuh+%E2%80%A2+Splunk+%E2%80%A2+Snort+%E2%80%A2+MITRE+ATT%26CK;Turning+Security+Telemetry+into+Actionable+Investigations" alt="Typing animation"/></a>
 
 <br/>
 
 <p align="center">
-  <b>🟢 SOC • DETECT • HUNT • INVESTIGATE • RESPOND</b>
+  <b>🟢 BLUE TEAM • DETECT • HUNT • INVESTIGATE • RESPOND</b>
 </p>
 
 <br/>
