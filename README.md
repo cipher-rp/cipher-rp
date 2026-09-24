@@ -40,48 +40,14 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 | 🐧 **Endpoint Security** | Windows Event Logs, Sysmon, Linux Auditd & FIM |
 | 🐍 **Automation** | Python scripting for security workflows and analysis |
 
----
+<!-- SOC INVESTIGATION PIPELINE -->
+<p align="center">
+  <img src="./assets/soc-investigation-heading.gif" width="100%" alt="SOC Investigation Pipeline"/>
+</p>
 
-## ⚔️ `SOC_INVESTIGATION_PIPELINE`
-
-```text
-                    SECURITY TELEMETRY
-                           │
-            ┌──────────────┼──────────────┐
-            ▼              ▼              ▼
-        WINDOWS          LINUX          NETWORK
-        Sysmon           Auditd         Snort
-        Event Logs       Auth Logs      Wireshark
-            │              │              │
-            └──────────────┼──────────────┘
-                           ▼
-                    ┌─────────────┐
-                    │     SIEM    │
-                    │ Wazuh/Splunk│
-                    └──────┬──────┘
-                           ▼
-                      ALERT TRIAGE
-                           │
-                           ▼
-                   CORRELATE THE SIGNAL
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-          User/Host      Process       Network
-          Timeline       Activity      Indicators
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                      MITRE ATT&CK
-                           │
-                           ▼
-                    INVESTIGATION / IR
-                           │
-                           ▼
-                 CONTAIN • RESPOND • REPORT
-```
-
----
+<p align="center">
+  <img src="./assets/soc-investigation-pipeline.gif" width="100%" alt="SOC investigation workflow from telemetry to triage, correlation, MITRE ATT&CK and response"/>
+</p>
 
 <p align="center"><img src="./assets/02-featured_security_projects.gif" width="100%" alt="Featured Security Projects"/></p>
 ### 🧠 CogniSOC — AI-Driven Network Threat Detection & Response
