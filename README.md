@@ -22,7 +22,7 @@
 
 ---
 
-<p align="center"><img src="./assets/01-security_operations_profile.gif" width="100%" alt="Security Operations Profile"/></p>
+<p align="center"><img src="./assets/01-security_operations_profile.gif" width="100%" alt="SECURITY_OPERATIONS_PROFILE"/></p>
 I'm a **SOC Analyst L1 / Cybersecurity professional** focused on **security monitoring, threat detection, threat hunting, detection engineering and incident response** — with a practical, investigation-first approach.
 
 I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM platforms**, turning raw events into investigation timelines, correlated findings and actionable response steps.
@@ -40,16 +40,50 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 | 🐧 **Endpoint Security** | Windows Event Logs, Sysmon, Linux Auditd & FIM |
 | 🐍 **Automation** | Python scripting for security workflows and analysis |
 
-<!-- SOC INVESTIGATION PIPELINE -->
-<p align="center">
-  <img src="./assets/soc-investigation-heading.gif" width="100%" alt="SOC Investigation Pipeline"/>
-</p>
+---
 
-<p align="center">
-  <img src="./assets/soc-investigation-pipeline.gif" width="100%" alt="SOC investigation workflow from telemetry to triage, correlation, MITRE ATT&CK and response"/>
-</p>
+## ⚔️ `SOC_INVESTIGATION_PIPELINE`
 
-<p align="center"><img src="./assets/02-featured_security_projects.gif" width="100%" alt="Featured Security Projects"/></p>
+```text
+                    SECURITY TELEMETRY
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+        WINDOWS          LINUX          NETWORK
+        Sysmon           Auditd         Snort
+        Event Logs       Auth Logs      Wireshark
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                    ┌─────────────┐
+                    │     SIEM    │
+                    │ Wazuh/Splunk│
+                    └──────┬──────┘
+                           ▼
+                      ALERT TRIAGE
+                           │
+                           ▼
+                   CORRELATE THE SIGNAL
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+          User/Host      Process       Network
+          Timeline       Activity      Indicators
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                      MITRE ATT&CK
+                           │
+                           ▼
+                    INVESTIGATION / IR
+                           │
+                           ▼
+                 CONTAIN • RESPOND • REPORT
+```
+
+---
+
+<p align="center"><img src="./assets/02-featured_security_projects.gif" width="100%" alt="FEATURED_SECURITY_PROJECTS"/></p>
 ### 🧠 CogniSOC — AI-Driven Network Threat Detection & Response
 
 **Goal:** Build a SOC-oriented security platform that combines host and network telemetry for detection, investigation and response.
@@ -81,13 +115,13 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/03-security_labs_and_research.gif" width="100%" alt="Security Labs and Research"/></p>
+<p align="center"><img src="./assets/03-security_labs_and_research.gif" width="100%" alt="SECURITY_LABS_AND_RESEARCH"/></p>
 <p align="center">`Wazuh` • `Splunk` • `Snort` • `TheHive` • `Wireshark` • `Kali Linux`</p>
 <p align="center">`Nmap` • `Burp Suite` • `Metasploit` • `Docker` • `DVWA` • `OWASP Mutillidae II`</p>
 
 ---
 
-<p align="center"><img src="./assets/04-technical_stack.gif" width="100%" alt="Technical Stack"/></p>
+<p align="center"><img src="./assets/04-technical_stack.gif" width="100%" alt="TECHNICAL_STACK"/></p>
 <p align="center">
 <img src="https://img.shields.io/badge/SIEM-Wazuh-111827?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/SIEM-Splunk-111827?style=for-the-badge"/>
@@ -110,7 +144,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/05-certifications_and_highlights.gif" width="100%" alt="Certifications and Highlights"/></p>
+<p align="center"><img src="./assets/05-certifications_and_highlights.gif" width="100%" alt="CERTIFICATIONS_AND_HIGHLIGHTS"/></p>
 
 - 🛡️ **Certified Ethical Hacker (CEH)**
 - 🔐 **Cybersecurity & Digital Forensics**
@@ -142,7 +176,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/06-current_focus.gif" width="100%" alt="Current Focus"/></p>
+<p align="center"><img src="./assets/06-current_focus.gif" width="100%" alt="CURRENT_FOCUS"/></p>
 
 <table>
 <tr>
@@ -191,7 +225,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/08-what_i_am_building.gif" width="100%" alt="What I Am Building"/></p>
+<p align="center"><img src="./assets/08-what_i_am_building.gif" width="100%" alt="WHAT_I_AM_BUILDING"/></p>
 
 <table>
 <tr>
@@ -239,7 +273,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 </p>
 ---
 
-<p align="center"><img src="./assets/07-connect_and_collaborate.gif" width="100%" alt="Connect and Collaborate"/></p>
+<p align="center"><img src="./assets/07-connect_and_collaborate.gif" width="100%" alt="CONNECT_AND_COLLABORATE"/></p>
 
 <p align="center">
   Open to <b>SOC operations, cybersecurity projects, detection engineering, threat hunting and blue-team research.</b>
