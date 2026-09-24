@@ -22,8 +22,7 @@
 
 ---
 
-## 🛡️ `SECURITY_OPERATIONS_PROFILE`
-
+<p align="center"><img src="./assets/01-security_operations_profile.gif" width="100%" alt="Security Operations Profile"/></p>
 I'm a **SOC Analyst L1 / Cybersecurity professional** focused on **security monitoring, threat detection, threat hunting, detection engineering and incident response** — with a practical, investigation-first approach.
 
 I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM platforms**, turning raw events into investigation timelines, correlated findings and actionable response steps.
@@ -84,8 +83,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-## 🚀 `FEATURED_SECURITY_PROJECTS`
-
+<p align="center"><img src="./assets/02-featured_security_projects.gif" width="100%" alt="Featured Security Projects"/></p>
 ### 🧠 CogniSOC — AI-Driven Network Threat Detection & Response
 
 **Goal:** Build a SOC-oriented security platform that combines host and network telemetry for detection, investigation and response.
@@ -117,15 +115,13 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-## 🔬 `SECURITY_LABS`
-
+<p align="center"><img src="./assets/03-security_labs_and_research.gif" width="100%" alt="Security Labs and Research"/></p>
 <p align="center">`Wazuh` • `Splunk` • `Snort` • `TheHive` • `Wireshark` • `Kali Linux`</p>
 <p align="center">`Nmap` • `Burp Suite` • `Metasploit` • `Docker` • `DVWA` • `OWASP Mutillidae II`</p>
 
 ---
 
-## 🧰 `SECURITY_ARSENAL`
-
+<p align="center"><img src="./assets/04-technical_stack.gif" width="100%" alt="Technical Stack"/></p>
 <p align="center">
 <img src="https://img.shields.io/badge/SIEM-Wazuh-111827?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/SIEM-Splunk-111827?style=for-the-badge"/>
@@ -148,8 +144,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-## 📜 `CERTIFICATIONS_&_HIGHLIGHTS`
-
+<p align="center"><img src="./assets/05-certifications_and_highlights.gif" width="100%" alt="Certifications and Highlights"/></p>
 - 🛡️ **Certified Ethical Hacker (CEH)**
 - 🔐 **Cybersecurity & Digital Forensics**
 - 🧠 **Foundation Level Threat Intelligence Analyst**
@@ -180,8 +175,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-## 🧭 `CURRENT_FOCUS`
-
+<p align="center"><img src="./assets/06-current_focus.gif" width="100%" alt="Current Focus"/></p>
 ```yaml
 role: SOC Analyst L1
 
@@ -239,8 +233,7 @@ mindset:
 
 ---
 
-## 🤝 `CONNECT_&_COLLABORATE`
-
+<p align="center"><img src="./assets/07-connect_and_collaborate.gif" width="100%" alt="Connect and Collaborate"/></p>
 Interested in **SOC operations, cybersecurity projects, detection engineering, threat hunting and blue-team security research**.
 
 <p align="center">
