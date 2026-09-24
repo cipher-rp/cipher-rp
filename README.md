@@ -22,7 +22,7 @@
 
 ---
 
-<p align="center"><img src="./assets/section-3d/01-security_operations_profile.gif" width="100%" alt="## 🛡️ `SECURITY_OPERATIONS_PROFILE`"/></p>
+## 🛡️ `SECURITY_OPERATIONS_PROFILE`
 
 I'm a **SOC Analyst L1 / Cybersecurity professional** focused on **security monitoring, threat detection, threat hunting, detection engineering and incident response** — with a practical, investigation-first approach.
 
@@ -84,7 +84,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/section-3d/02-featured_security_projects.gif" width="100%" alt="<p align="center"><img src="./assets/section-3d/02-featured_security_projects.gif" width="100%" alt="Featured Security Projects"/></p>"/></p>
+## 🚀 `FEATURED_SECURITY_PROJECTS`
 
 ### 🧠 CogniSOC — AI-Driven Network Threat Detection & Response
 
@@ -117,14 +117,14 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/section-3d/03-security_labs_and_research.gif" width="100%" alt="## 🔬 `SECURITY_LABS`"/></p>
+## 🔬 `SECURITY_LABS`
 
 <p align="center">`Wazuh` • `Splunk` • `Snort` • `TheHive` • `Wireshark` • `Kali Linux`</p>
 <p align="center">`Nmap` • `Burp Suite` • `Metasploit` • `Docker` • `DVWA` • `OWASP Mutillidae II`</p>
 
 ---
 
-<p align="center"><img src="./assets/section-3d/04-technical_stack.gif" width="100%" alt="## 🧰 `SECURITY_ARSENAL`"/></p>
+## 🧰 `SECURITY_ARSENAL`
 
 <p align="center">
 <img src="https://img.shields.io/badge/SIEM-Wazuh-111827?style=for-the-badge"/>
@@ -148,7 +148,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/section-3d/05-certifications_and_highlights.gif" width="100%" alt="## 📜 `CERTIFICATIONS_&_HIGHLIGHTS`"/></p>
+## 📜 `CERTIFICATIONS_&_HIGHLIGHTS`
 
 - 🛡️ **Certified Ethical Hacker (CEH)**
 - 🔐 **Cybersecurity & Digital Forensics**
@@ -180,7 +180,7 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<p align="center"><img src="./assets/section-3d/06-current_focus.gif" width="100%" alt="## 🧭 `CURRENT_FOCUS`"/></p>
+## 🧭 `CURRENT_FOCUS`
 
 ```yaml
 role: SOC Analyst L1
@@ -239,7 +239,7 @@ mindset:
 
 ---
 
-<p align="center"><img src="./assets/section-3d/07-connect_and_collaborate.gif" width="100%" alt="## 🤝 `CONNECT_&_COLLABORATE`"/></p>
+## 🤝 `CONNECT_&_COLLABORATE`
 
 Interested in **SOC operations, cybersecurity projects, detection engineering, threat hunting and blue-team security research**.
 
