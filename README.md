@@ -42,14 +42,44 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 
 ---
 
-<!-- SOC INVESTIGATION PIPELINE -->
-<p align="center">
-  <img src="./assets/soc-investigation-heading.gif" width="100%" alt="SOC Investigation Pipeline"/>
-</p>
+## ⚔️ `SOC_INVESTIGATION_PIPELINE`
 
-<p align="center">
-  <img src="./assets/soc-investigation-pipeline.gif" width="100%" alt="SOC investigation workflow from telemetry to triage, correlation, MITRE ATT&CK and response"/>
-</p>
+```text
+                    SECURITY TELEMETRY
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+        WINDOWS          LINUX          NETWORK
+        Sysmon           Auditd         Snort
+        Event Logs       Auth Logs      Wireshark
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                    ┌─────────────┐
+                    │     SIEM    │
+                    │ Wazuh/Splunk│
+                    └──────┬──────┘
+                           ▼
+                      ALERT TRIAGE
+                           │
+                           ▼
+                   CORRELATE THE SIGNAL
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+          User/Host      Process       Network
+          Timeline       Activity      Indicators
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                      MITRE ATT&CK
+                           │
+                           ▼
+                    INVESTIGATION / IR
+                           │
+                           ▼
+                 CONTAIN • RESPOND • REPORT
+```
 
 ---
 
@@ -115,11 +145,12 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 ---
 
 <p align="center"><img src="./assets/05-certifications_and_highlights.gif" width="100%" alt="Certifications and Highlights"/></p>
+
 - 🛡️ **Certified Ethical Hacker (CEH)**
 - 🔐 **Cybersecurity & Digital Forensics**
 - 🧠 **Foundation Level Threat Intelligence Analyst**
-- 🏆 **Top Performer PoC Award — DevFest Ranchi 2025**
 - 🎓 **Bachelor's in Computer Application & Cybersecurity**
+
 
 ---
 
@@ -146,69 +177,111 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 ---
 
 <p align="center"><img src="./assets/06-current_focus.gif" width="100%" alt="Current Focus"/></p>
-```yaml
-role: SOC Analyst L1
 
-core_focus:
-  - Threat Detection
-  - Incident Response
-  - Threat Hunting
-  - Detection Engineering
-  - SIEM Investigation
+<table>
+<tr>
+<td width="33%" valign="top">
 
-current_learning:
-  - Splunk
-  - Advanced Wazuh
-  - Microsoft Sentinel
-  - MITRE ATT&CK
-  - Enterprise Detection Engineering
+### 🎯 CORE FOCUS
 
-investigation_method:
-  - Start with the alert
-  - Establish host and time scope
-  - Pivot through related telemetry
-  - Correlate process, file and network activity
-  - Build the attack timeline
-  - Map relevant MITRE ATT&CK techniques
-  - Document evidence and response
+• Threat Detection  
+• Incident Response  
+• Threat Hunting  
+• Detection Engineering  
+• SIEM Investigation
 
-mindset:
-  - Investigate the signal
-  - Correlate the evidence
-  - Understand the timeline
-  - Respond with confidence
-```
+</td>
+<td width="33%" valign="top">
+
+### 📚 CURRENTLY LEARNING
+
+• Splunk  
+• Advanced Wazuh  
+• Microsoft Sentinel  
+• MITRE ATT&CK  
+• Enterprise Detection Engineering
+
+</td>
+<td width="33%" valign="top">
+
+### 🔎 INVESTIGATION METHOD
+
+• Scope the alert  
+• Establish host + time  
+• Pivot through telemetry  
+• Correlate process/file/network  
+• Build the timeline  
+• Map MITRE techniques  
+• Document response
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <b>🧠 MINDSET</b><br/>
+  Investigate the signal → Correlate the evidence → Understand the timeline → Respond with confidence
+</p>
 
 ---
 
-## 📈 `WHAT_I_AM_BUILDING`
+<p align="center"><img src="./assets/08-what_i_am_building.gif" width="100%" alt="What I Am Building"/></p>
 
-```text
-                 ┌───────────────────────────┐
-                 │     CYBERSECURITY LAB      │
-                 └─────────────┬─────────────┘
-                               │
-          ┌────────────────────┼────────────────────┐
-          ▼                    ▼                    ▼
-       DETECTION            HUNTING             RESPONSE
-          │                    │                    │
-       Wazuh                Splunk              TheHive
-       Snort                OpenSearch          Active Response
-       Sigma                MITRE ATT&CK        Case Workflow
-          │                    │                    │
-          └────────────────────┼────────────────────┘
-                               ▼
-                    ENTERPRISE SOC SKILLS
-```
+<table>
+<tr>
+<td align="center" width="33%">
 
+### 🔎 DETECTION
+
+`Wazuh`  
+`Snort`  
+`Sigma`  
+`Sysmon`
+
+**Build:** detections, rules & correlation
+
+</td>
+<td align="center" width="33%">
+
+### 🧠 HUNTING
+
+`Splunk`  
+`OpenSearch`  
+`MITRE ATT&CK`  
+`Threat Intel`
+
+**Build:** hunts, pivots & timelines
+
+</td>
+<td align="center" width="33%">
+
+### 🚨 RESPONSE
+
+`TheHive`  
+`Active Response`  
+`Case Workflow`  
+`IR`
+
+**Build:** triage, containment & reporting
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <b>ENTERPRISE SOC SKILLS</b> • Detect → Hunt → Investigate → Respond
+</p>
 ---
 
 <p align="center"><img src="./assets/07-connect_and_collaborate.gif" width="100%" alt="Connect and Collaborate"/></p>
-Interested in **SOC operations, cybersecurity projects, detection engineering, threat hunting and blue-team security research**.
 
 <p align="center">
-<a href="https://www.linkedin.com/in/pradeep-kumar-pk01"><img src="https://img.shields.io/badge/LinkedIn-Pradeep%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/cipher-rp"><img src="https://img.shields.io/badge/GitHub-cipher--rp-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  Open to <b>SOC operations, cybersecurity projects, detection engineering, threat hunting and blue-team research.</b>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/pradeep-kumar-pk01"><img src="https://img.shields.io/badge/LinkedIn-Pradeep%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/cipher-rp"><img src="https://img.shields.io/badge/GitHub-cipher--rp-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 ---
