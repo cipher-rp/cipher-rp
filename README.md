@@ -51,44 +51,6 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
   <img src="./assets/soc-investigation-pipeline.gif" width="100%" alt="SOC investigation workflow from telemetry to triage, correlation, MITRE ATT&CK and response"/>
 </p>
 
-
-```text
-                    SECURITY TELEMETRY
-                           │
-            ┌──────────────┼──────────────┐
-            ▼              ▼              ▼
-        WINDOWS          LINUX          NETWORK
-        Sysmon           Auditd         Snort
-        Event Logs       Auth Logs      Wireshark
-            │              │              │
-            └──────────────┼──────────────┘
-                           ▼
-                    ┌─────────────┐
-                    │     SIEM    │
-                    │ Wazuh/Splunk│
-                    └──────┬──────┘
-                           ▼
-                      ALERT TRIAGE
-                           │
-                           ▼
-                   CORRELATE THE SIGNAL
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-          User/Host      Process       Network
-          Timeline       Activity      Indicators
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                      MITRE ATT&CK
-                           │
-                           ▼
-                    INVESTIGATION / IR
-                           │
-                           ▼
-                 CONTAIN • RESPOND • REPORT
-```
-
 ---
 
 <p align="center"><img src="./assets/02-featured_security_projects.gif" width="100%" alt="Featured Security Projects"/></p>
