@@ -87,8 +87,8 @@ I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM p
 ---
 
 <p align="center"><img src="./assets/03-security_labs_and_research.gif" width="100%" alt="SECURITY_LABS_AND_RESEARCH"/></p>
-<p align="center">`Wazuh` • `Splunk` • `Snort` • `TheHive` • `Wireshark` • `Kali Linux`</p>
-<p align="center">`Nmap` • `Burp Suite` • `Metasploit` • `Docker` • `DVWA` • `OWASP Mutillidae II`</p>
+<p align="center"> Wazuh • Splunk • Snort • TheHive • Wireshark • Kali Linux </p>
+<p align="center"> Nmap • Burp Suite • Metasploit • Docker • DVWA • OWASP Mutillidae II </p>
 
 ---
 
