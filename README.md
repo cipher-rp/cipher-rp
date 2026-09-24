@@ -1,133 +1,257 @@
 <div align="center">
 
-<!-- HERO BANNER -->
-<p align="center">
-  <img src="./assets/cyber-banner.svg" width="100%" alt="Pradeep Kumar Banner"/>
-</p>
+<p><img src="./assets/cyber-banner.svg" width="100%" alt="Pradeep Kumar - Cybersecurity SOC Analyst"/></p>
 
-<!-- 3D CYBERPUNK WAVING HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:4facfe&height=180&section=header&text=PRADEEP%20KUMAR&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=🛡️%20SOC%20ANALYST%20L1%20%7C%20CYBERSECURITY%20%7C%20THREAT%20DETECTION&descAlignY=65&descScale=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:00e5ff,100:7c3aed&height=170&section=header&text=PRADEEP%20KUMAR&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=SOC%20ANALYST%20L1%20%7C%20THREAT%20DETECTION%20%7C%20INCIDENT%20RESPONSE&descAlignY=65&descSize=17" width="100%" alt="Cybersecurity header"/>
+
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&height=70&multiline=true&lines=SOC+Analyst+L1+%E2%80%A2+Cybersecurity+%E2%80%A2+Threat+Detection;Threat+Hunting+%E2%80%A2+SIEM+Investigation+%E2%80%A2+Incident+Response;Wazuh+%E2%80%A2+Splunk+%E2%80%A2+Snort+%E2%80%A2+MITRE+ATT%26CK;Turning+Security+Telemetry+into+Actionable+Investigations" alt="Typing animation"/></a>
 
 <br/>
 
-<!-- ANIMATED TYPING HEADER -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&height=45&lines=SOC+Analyst+L1+%E2%80%A2+Cybersecurity+%E2%80%A2+Threat+Detection;Turning+Security+Telemetry+into+Actionable+Investigations;Monitoring+Logs+%7C+SIEM+Correlation+%7C+Incident+Response;Welcome+to+cipher-rp's+Cyber+Command+Center" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-<!-- BADGES MATRIX -->
 <a href="https://www.linkedin.com/in/pradeep-kumar-pk01"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://github.com/cipher-rp"><img src="https://img.shields.io/badge/GitHub-cipher--rp-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://komarev.com/ghpvc/?username=cipher-rp&color=00f2fe&style=for-the-badge&label=PROFILE%20VIEWS"><img src="https://komarev.com/ghpvc/?username=cipher-rp&color=00f2fe&style=for-the-badge&label=PROFILE%20VIEWS" alt="Profile views"/></a>
+<a href="https://github.com/cipher-rp"><img src="https://img.shields.io/badge/GitHub-cipher--rp-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<img src="https://komarev.com/ghpvc/?username=cipher-rp&label=PROFILE%20VIEWS&color=00e5ff&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
 ---
 
-## 🛡️ Security Operations Profile
+## 🛡️ `SECURITY_OPERATIONS_PROFILE`
 
-I'm a **Cybersecurity professional focused on SOC operations, detection engineering, threat hunting, and incident response**.
+I'm a **SOC Analyst L1 / Cybersecurity professional** focused on **security monitoring, threat detection, threat hunting, detection engineering and incident response**.
 
-My current work and learning revolve around turning security telemetry into actionable investigations — from **Windows/Linux logs and endpoint events** to **SIEM correlation, network detection, and MITRE ATT&CK mapping**.
+I work with telemetry from **Windows/Linux endpoints, network sensors and SIEM platforms**, turning raw events into investigation timelines, correlated findings and actionable response steps.
+
+### 🎯 Core Focus
+
+| Area | Focus |
+|---|---|
+| 🔎 **SOC Operations** | Alert triage, investigation, escalation & incident documentation |
+| 🧠 **Threat Hunting** | Host/time-based hunting, log pivots, process-file-network correlation |
+| 🛡️ **Detection Engineering** | Wazuh rules, Sigma concepts, behavioral detections & MITRE mapping |
+| 📊 **SIEM** | Wazuh / OpenSearch / Splunk queries, correlation & investigation |
+| 🌐 **Network Security** | Snort NIDS, Wireshark, traffic analysis & network indicators |
+| 🚨 **Incident Response** | Timeline reconstruction, evidence correlation & response workflow |
+| 🐧 **Endpoint Security** | Windows Event Logs, Sysmon, Linux Auditd & FIM |
+| 🐍 **Automation** | Python scripting for security workflows and analysis |
+
+---
+
+## ⚔️ `SOC_INVESTIGATION_PIPELINE`
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│  SOC WORKFLOW                                                │
-│                                                              │
-│  TELEMETRY → DETECTION → TRIAGE → INVESTIGATION → RESPONSE │
-│       │           │          │            │             │    │
-│   Sysmon      Wazuh/SIEM   Alerts      Threat Hunt    IR   │
-│   Windows     Splunk       Correlation  Timeline      RCA  │
-│   Linux       Snort        MITRE ATT&CK  Evidence     Fix  │
-└──────────────────────────────────────────────────────────────┘
+                    SECURITY TELEMETRY
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+        WINDOWS          LINUX          NETWORK
+        Sysmon           Auditd         Snort
+        Event Logs       Auth Logs      Wireshark
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                    ┌─────────────┐
+                    │     SIEM    │
+                    │ Wazuh/Splunk│
+                    └──────┬──────┘
+                           ▼
+                      ALERT TRIAGE
+                           │
+                           ▼
+                   CORRELATE THE SIGNAL
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+          User/Host      Process       Network
+          Timeline       Activity      Indicators
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                      MITRE ATT&CK
+                           │
+                           ▼
+                    INVESTIGATION / IR
+                           │
+                           ▼
+                 CONTAIN • RESPOND • REPORT
+```
 
-🎯 What I Work On
-🔎 SOC monitoring & alert investigation
-🧠 Threat hunting & detection engineering
-🛡️ Wazuh / SIEM / EDR telemetry analysis
-🌐 Network detection with Snort & Wireshark
-🧩 MITRE ATT&CK-based investigation
-🚨 Incident triage, correlation & response
-🐧 Linux + Windows security monitoring
-🐍 Python automation for cybersecurity
-📊 Splunk queries & practical log analysis
-⚔️ Featured Security Projects
-🧠 CogniSOC — AI-Driven Network Threat Detection & Response
-Enterprise-focused security monitoring platform integrating host and network telemetry.
+---
 
-Stack: Wazuh Snort OpenSearch MITRE ATT&CK Active Response Docker
+## 🚀 `FEATURED_SECURITY_PROJECTS`
 
-📡 HIDS + NIDS security monitoring
-⚡ Detection & alert correlation
-🎯 MITRE ATT&CK mapping
-🛡️ Automated response workflows
-📊 SOC-style investigation dashboard
-🔗 View CogniSOC Repository →
+### 🧠 CogniSOC — AI-Driven Network Threat Detection & Response
 
-🛰️ AEDP — Advanced Enterprise Detection Platform
-Detection engineering project designed around enterprise-scale security telemetry.
+**Goal:** Build a SOC-oriented security platform that combines host and network telemetry for detection, investigation and response.
 
-Focus: Windows Events Sysmon Auditd FIM YARA Sigma MITRE ATT&CK Wazuh
+**Stack:** `Wazuh` `Snort` `OpenSearch` `MITRE ATT&CK` `Docker` `Active Response`
 
-🔑 Authentication & brute-force detections
-💻 Process / LOLBin / PowerShell monitoring
-🌐 Network activity detection
-📁 File Integrity Monitoring (FIM)
-🕵️ Threat intelligence correlation
-🚨 Behavioral detection and response
-🔬 Security Labs & Research
-Hands-on experience & research across core tools:
+- 🔎 Host + network security monitoring
+- ⚡ Alert collection and correlation
+- 🎯 MITRE ATT&CK mapping
+- 🚨 SOC-style investigation workflow
+- 🛡️ Response / containment concepts
+- 📊 Security monitoring dashboard
 
-Snort NIDS • Wazuh • TheHive • Splunk • Wireshark • Burp Suite • Nmap • Metasploit • Kali Linux • Docker • DVWA • OWASP Mutillidae II
+---
 
-📜 Certifications & Highlights
-🛡️ Certified Ethical Hacker (CEH)
-🔐 Cybersecurity & Digital Forensics
-🧠 Foundation Level Threat Intelligence Analyst
-🏆 Top Performer PoC Award — DevFest Ranchi 2025
-🎓 Bachelor's in Computer Application & Cybersecurity — Jharkhand Raksha Shakti University
-🧰 Security Arsenal & Technical Stack
-Tech stack
+### 🛰️ AEDP — Advanced Enterprise Detection Platform
 
-SIEMNIDSIRATT&CK
+**Goal:** Design an enterprise-oriented detection layer around endpoint, authentication, process, network and file telemetry.
 
-WiresharkBurp SuiteNmapMetasploitDocker
+**Detection domains:** `Windows Events` `Sysmon` `Linux Auditd` `FIM` `YARA` `Sigma` `MITRE ATT&CK` `Wazuh`
 
-📊 GitHub Telemetry & Stats
-GitHub statsTop languages
+- 🔐 Authentication & brute-force activity
+- 💻 Process execution & suspicious child processes
+- ⚡ PowerShell / LOLBin activity
+- 🌐 Network-related indicators
+- 📁 File Integrity Monitoring
+- 🕵️ Threat-intelligence correlation
+- 🚨 Behavioral detections & response
 
-GitHub streak
+---
 
-🧊 3D Contribution Intelligence
-3D GitHub contribution graph
-🐍 Contribution Attack Path
-GitHub contribution snake
-🧭 Current Focus
-yaml
+## 🔬 `SECURITY_LABS`
 
+<p align="center">`Wazuh` • `Splunk` • `Snort` • `TheHive` • `Wireshark` • `Kali Linux`</p>
+<p align="center">`Nmap` • `Burp Suite` • `Metasploit` • `Docker` • `DVWA` • `OWASP Mutillidae II`</p>
 
+---
+
+## 🧰 `SECURITY_ARSENAL`
+
+<p align="center">
+<img src="https://img.shields.io/badge/SIEM-Wazuh-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SIEM-Splunk-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NIDS-Snort-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/IR-TheHive-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-111827?style=for-the-badge"/>
+</p>
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=linux,windows,kali,docker,python,bash,git,github,vscode,mysql&theme=dark" alt="Security and engineering stack"/>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Network-Wireshark-1677FF?style=flat-square&logo=wireshark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Web-Burp%20Suite-FF6633?style=flat-square"/>
+<img src="https://img.shields.io/badge/Recon-Nmap-111111?style=flat-square"/>
+<img src="https://img.shields.io/badge/Exploitation-Metasploit-2596BE?style=flat-square"/>
+<img src="https://img.shields.io/badge/Container-Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+</p>
+
+---
+
+## 📜 `CERTIFICATIONS_&_HIGHLIGHTS`
+
+- 🛡️ **Certified Ethical Hacker (CEH)**
+- 🔐 **Cybersecurity & Digital Forensics**
+- 🧠 **Foundation Level Threat Intelligence Analyst**
+- 🏆 **Top Performer PoC Award — DevFest Ranchi 2025**
+- 🎓 **Bachelor's in Computer Application & Cybersecurity**
+
+---
+
+## 📡 `LIVE_GITHUB_TELEMETRY`
+
+> Contribution visuals below are generated/updated automatically through GitHub Actions.
+
+### 🧊 3D Contribution Intelligence
+
+<p align="center">
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution graph"/>
+</p>
+
+### 🐍 Contribution Attack Path
+
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg">
+<img src="./dist/github-snake.svg" width="100%" alt="GitHub contribution snake"/>
+</picture>
+</p>
+
+---
+
+## 🧭 `CURRENT_FOCUS`
+
+```yaml
 role: SOC Analyst L1
-focus:
+
+core_focus:
   - Threat Detection
   - Incident Response
   - Threat Hunting
   - Detection Engineering
   - SIEM Investigation
-learning:
+
+current_learning:
   - Splunk
   - Advanced Wazuh
   - Microsoft Sentinel
   - MITRE ATT&CK
   - Enterprise Detection Engineering
+
+investigation_method:
+  - Start with the alert
+  - Establish host and time scope
+  - Pivot through related telemetry
+  - Correlate process, file and network activity
+  - Build the attack timeline
+  - Map relevant MITRE ATT&CK techniques
+  - Document evidence and response
+
 mindset:
   - Investigate the signal
   - Correlate the evidence
   - Understand the timeline
   - Respond with confidence
-📫 Connect & Collaborate
-LinkedInGitHub
+```
 
+---
 
-“Security is not just about finding alerts — it's about understanding what happened.” ⚡
+## 📈 `WHAT_I_AM_BUILDING`
+
+```text
+                 ┌───────────────────────────┐
+                 │     CYBERSECURITY LAB      │
+                 └─────────────┬─────────────┘
+                               │
+          ┌────────────────────┼────────────────────┐
+          ▼                    ▼                    ▼
+       DETECTION            HUNTING             RESPONSE
+          │                    │                    │
+       Wazuh                Splunk              TheHive
+       Snort                OpenSearch          Active Response
+       Sigma                MITRE ATT&CK        Case Workflow
+          │                    │                    │
+          └────────────────────┼────────────────────┘
+                               ▼
+                    ENTERPRISE SOC SKILLS
+```
+
+---
+
+## 🤝 `CONNECT_&_COLLABORATE`
+
+Interested in **SOC operations, cybersecurity projects, detection engineering, threat hunting and blue-team security research**.
+
+<p align="center">
+<a href="https://www.linkedin.com/in/pradeep-kumar-pk01"><img src="https://img.shields.io/badge/LinkedIn-Pradeep%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/cipher-rp"><img src="https://img.shields.io/badge/GitHub-cipher--rp-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
+---
+
+<div align="center">
+
+### ⚡ `DETECT • INVESTIGATE • RESPOND`
+
+*"Security is not just about finding alerts — it's about understanding what happened."*
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:00e5ff,100:050816&height=100&section=footer" width="100%" alt="Cybersecurity footer"/>
+
+</div>
